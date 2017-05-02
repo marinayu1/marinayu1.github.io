@@ -1,0 +1,92 @@
+h1{
+  font-family: arial;
+  font-size: 24pt;
+  text-align: left;
+  margin-left: 150px;
+  position: fixed;
+
+}
+.metahaven{
+  display: block;
+  color: red;
+  }
+
+.cloud{
+  color: red;
+  transition: 2s;
+
+}
+.cloud.enlarge{
+  color: blue;
+font-size: 50pt;
+  transition: 1s;
+}
+
+.thecoming{
+  color: red;
+}
+
+.thecoming.enlarge{
+  color: blue;
+  font-size: 50pt;
+  transition: 1s;
+
+}
+
+h2{
+  font-family: arial;
+  font-size: 20pt;
+  color: black;
+  text-align: left;
+  margin-left:200px;
+}
+
+p{
+  margin-left: 200px;
+  margin-right: 200px;
+  font-family: arial;
+  font-size: 15pt;
+  }
+
+blockquote{
+  font-family: monospace;
+  margin-left: 250px;
+  margin-right: 250px;
+  font-size: 15pt;
+}
+
+.thumbnail{
+display: block;
+  width: 300px;
+  margin:auto;
+  transition: 2s;
+}
+
+.thumbnail.enlarge{
+display: block;
+  width: 700px;
+  margin:auto;
+  transition: 2s;
+}
+
+.number{
+  color: red;
+  font-size: 12pt;
+}
+.number:hover{
+  background-color: red;
+  color: blue;
+}
+
+.footnote{
+  position:fixed;
+  bottom: 0px;
+  left: 10px;
+  font-family: monospace;
+  display: none;
+  color: red;
+}
+
+.footnote.showme{
+display: block;
+}

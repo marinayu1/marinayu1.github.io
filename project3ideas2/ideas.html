@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>page 2</title>
+
+
+
+      <link rel="stylesheet" href="assets/css/main.css">
+  </head>
+  <body>
+    <p>Click the "Try it" button to change the perspecive property of the DIV1 element:</p>
+
+  <button onclick="myFunction()">Try it</button>
+
+  <div id="div1">DIV1
+    <div id="div2">Think that you are a bird, looking down on a wall. Then click the button to see what happens when you change the perspective!</div>
+  </div>
+
+  <script>
+  function myFunction() {
+      document.getElementById("div1").style.WebkitPerspective = "100px"; // Chrome, Safari and Opera
+      document.getElementById("div1").style.perspective = "100px";
+  }
+  </script>
+  <div id="loading" class="move" style="top: 49.0333px; left: 10.3448px; transform: perspective(500px) rotateY(6.8836deg) rotateX(-12.7111deg); visibility: hidden; opacity: 0;">
+  			<div class="text blink">loading</div>
+  		</div>
+  </body>
+</html>
