@@ -4,6 +4,9 @@ $(document).ready(function() {
     $('.footnote').addClass('showme');
   });
 
+  $('.thumbnail').click(function() {
+    $('.this').toggleClass('enlarge');
+  });
 
 
 $('.number').mouseleave(function() {
@@ -30,4 +33,9 @@ $('.number').mouseleave(function() {
     $(this).toggleClass('enlarge');
   });
 
-});
+  $('.link').click(function() {
+    $('.iframe').addClass('showme');
+      //run function that records clicks
+  });
+
+  
