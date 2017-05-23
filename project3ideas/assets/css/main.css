@@ -1,0 +1,643 @@
+h1{
+  font-family: arial;
+  font-size: 25pt;
+  color: red;
+  text-align: center;
+  margin-top: 50px;
+}
+
+body{
+  background-color: lightyellow;
+}
+
+p{
+  font-family: arial;
+  font-size: 20pt;
+  margin-left: 300px;
+  margin-right: 300px;
+  text-align: justify;
+}
+
+blockquote{
+  margin-left: 500px;
+  margin-right: 500px;
+  text-align: justify;
+  font-size: 12pt;
+  font-family: arial;
+  border: none;
+  padding: 20px;
+}
+
+a:link{
+  color: red;
+  text-decoration: none;
+  }
+
+a:visited{
+  color: blue;
+}
+/* title */
+.rotate-x {
+  animation: spinX 7s infinite linear;
+}
+
+.rotate-x.two {
+  animation: spinX 10s infinite linear;
+}
+
+@keyframes spinX {
+  from { transform: rotateX(0); }
+  to { transform: rotateX(360deg); }
+}
+
+.rotate-y {
+  animation: spinX 7s infinite linear;
+}
+@keyframes spinX {
+  from { transform: rotateY(0); }
+  to { transform: rotateY(360deg); }
+}
+
+.contents{
+	position: fixed;
+	font-family: arial;
+	border: 1px solid;
+	border-color: RED;
+	padding: 15px;
+	font-size: 11pt;
+	width: 200px;
+	margin-left: 30px;
+	top: 60px;
+	color: black;
+  background-color: white;
+  box-shadow: 5px 5px 10px #888888;
+}
+
+.arrow{
+  position:fixed;
+  display: block;
+  margin-top: 400px;
+  margin-left: 500px;
+}
+
+.index{
+  font-family: arial;
+  font-size: 20pt;
+  text-align: center;
+  width: 500px;
+  margin-top: 200px;
+  text-transform: uppercase;
+}
+
+/* inset text images*/
+.thumbnail{
+  display: inline block;
+  width:40px;
+  padding: 0px;
+  position: absolute;
+  transition: 1s;
+  box-shadow: 5px 5px 10px #888888;
+
+}
+.thumbnailsplit{
+  display: inline block;
+  width:40px;
+  padding: 0px;
+  position: absolute;
+  transition: 1s;
+  box-shadow: 5px 5px 10px #888888;
+}
+
+.thumbnailjoyless{
+  display: inline block;
+  width:40px;
+  padding: 0px;
+  position: absolute;
+  transition: 1s;
+  box-shadow: 5px 5px 10px #888888;
+}
+
+.thumbnailwakeup{
+  display: inline block;
+  width:40px;
+  padding: 0px;
+  position: absolute;
+  transition: 1s;
+  box-shadow: 5px 5px 10px #888888;
+}
+
+.thumbnailonline{
+  display: inline block;
+  width:40px;
+  padding: 0px;
+  position: absolute;
+  transition: 1s;
+  box-shadow: 5px 5px 10px #888888;
+}
+
+.thumbnailbuilding{
+  display: inline block;
+  width:40px;
+  padding: 0px;
+  position: absolute;
+  transition: 1s;
+  box-shadow: 5px 5px 10px #888888;
+}
+
+.thumbnailtruism{
+  display: inline block;
+  width:40px;
+  padding: 0px;
+  position: absolute;
+  transition: 1s;
+  box-shadow: 5px 5px 10px #888888;
+}
+
+.thumbnailyourself{
+  display: inline block;
+  height: 30px;
+  padding: 0px;
+  position: absolute;
+  transition: 1s;
+  box-shadow: 5px 5px 10px #888888;
+}
+
+.thumbnailoffline{
+  display: inline block;
+  width: 20px;
+  padding: 0px;
+  position: absolute;
+  transition: 1s;
+  box-shadow: 5px 5px 10px #888888;
+}
+
+.thumbnailrealname{
+  display: inline block;
+  width: 30px;
+  padding: 0px;
+  position: absolute;
+  transition: 1s;
+  box-shadow: 5px 5px 10px #888888;
+}
+
+
+
+
+/*hoverthumbnails*/
+.thumbnail:hover {
+    width:600px;
+
+    transition: 1s ease-in-out;
+    margin: auto;
+    position: absolute;
+    transform: scale(1,1)
+}
+.thumbnailsplit:hover {
+    width:600px;
+
+    transition: 1s ease-in-out;
+    margin: auto;
+    position: absolute;
+
+
+}
+
+.thumbnailjoyless:hover {
+    width:600px;
+    transition: 1s ease-in-out;
+    margin: auto;
+    position: absolute;
+}
+
+.thumbnailwakeup:hover {
+    width:600px;
+    transition: 1s ease-in-out;
+    margin: auto;
+    position: absolute;
+}
+
+.thumbnailonline:hover {
+    width:600px;
+    transition: 1s ease-in-out;
+    margin: auto;
+    position: absolute;
+}
+
+.thumbnailbuilding:hover {
+    width:600px;
+    transition: 1s ease-in-out;
+    margin: auto;
+    position: absolute;
+}
+.thumbnailtruism:hover {
+    width:600px;
+    transition: 1s ease-in-out;
+    margin: auto;
+    position: absolute;
+}
+
+.thumbnailyourself:hover {
+    height:600px;
+    transition: 1s ease-in-out;
+    margin: auto;
+    position: absolute;
+}
+
+.thumbnailoffline:hover {
+    width:600px;
+    transition: 1s ease-in-out;
+    margin: auto;
+    position: absolute;
+}
+
+.thumbnailrealname:hover {
+    width:600px;
+    transition: 1s ease-in-out;
+    margin: auto;
+    position: absolute;
+}
+
+
+
+.link{
+  color: blue;
+}
+
+.rollover{
+  color: red;
+}
+.rollover:hover{
+  color: blue;
+}
+
+.google{
+  text-decoration: underline;
+}
+
+.google:hover{
+  text-decoration: underline red;
+
+}
+.appear{
+  position: fixed;
+  display: none;
+  pointer-events: none;
+  top: 50px;
+  left: 20px;
+
+
+}
+.appear.showme{
+  display: block;
+  top: 50px;
+  left: 20px;
+}
+
+.rotate{
+  position: fixed;
+  visibility: hidden;
+  pointer-events: none;
+  transition: all 1s;
+  transform: scale(0)rotate(0deg);
+
+
+}
+
+.rotate.showme{
+  visibility: visible;
+  transition: all 1s;
+  transform: scale(1) rotate(360deg);
+  position: fixed;
+  display: block;
+}
+
+.disappear{
+  position: fixed;
+  display: block;
+  pointer-events: none;
+  top: 50px;
+  left: 20px;
+
+}
+.disappear.showme{
+  display: none;
+  top: 50px;
+  left: 20px;
+
+}
+
+.singlekey__image{
+  margin-top: 200px;
+  margin-left:300px;
+}
+
+.computer__image{
+  margin-top: 90px;
+  margin-left: 360px;
+  width: 150px;
+}
+.record__image{
+  margin-top: 200px;
+  margin-left: 420px;
+  width: 150px;
+}
+
+.vague__image{
+  margin-top: 200px;
+  margin-left: 420px;
+  height: 40px;
+  border: 1px red solid;
+}
+
+.memories__image{
+  margin-top: 300px;
+  margin-left: 620px;
+  height: 40px;
+  border: 1px red solid;
+}
+
+.recall__image{
+  margin-top: 200px;
+  margin-left: 520px;
+  height: 40px;
+  border: 1px red solid;
+}
+
+.rememeber__image{
+  margin-top: 100px;
+  margin-left: 340px;
+  height: 40px;
+  border: 1px red solid;
+}
+
+.folklore__image{
+  margin-top: 280px;
+  margin-left: 590px;
+  height: 40px;
+  border: 1px red solid;
+}
+
+.clobbering__image{
+  margin-top: 250px;
+  margin-left: 820px;
+  height: 40px;
+  border: 1px red solid;
+}
+
+.dangerous__image{
+  margin-top: 400px;
+  margin-left: 420px;
+  height: 40px;
+  border: 1px red solid;
+}
+
+.percolate__image{
+  margin-top: 400px;
+  margin-left: 420px;
+  height: 40px;
+  border: 1px red solid;
+}
+
+.integers__image{
+  margin-top: 200px;
+  margin-left: 420px;
+  height: 40px;
+  border: 1px red solid;
+}
+
+.representing__image{
+  margin-top: 200px;
+  margin-left: 420px;
+  height: 40px;
+  border: 1px red solid;
+}
+
+.transcript_info__image{
+  margin-top: 150px;
+  margin-left: 0px;
+  width: 390px;
+  transition: 2s;
+  border: 1px solid red;
+  box-shadow: 5px 5px 10px #888888;
+}
+
+
+
+
+.online__image{
+  margin-top: 200px;
+  margin-left: 400px;
+  width: 300px;
+}
+
+.AFRAID__image{
+  margin-left: 900px;
+  margin-top: 3px;
+  width: 500px;
+}
+
+.split__image{
+  margin-left: 300px;
+  margin-top: 600px;
+}
+.split_info__image{
+  margin-left: 900px;
+  margin-top:400px;
+  width: 420px;
+  border: 1px solid red;
+  box-shadow: 5px 5px 10px #888888;
+}
+
+.joyless_image{
+  margin-left: 200px;
+  margin-top: 100px;
+
+}
+
+.joyless_info__image{
+  margin-left: 100px;
+  margin-top:100px;
+  width: 420px;
+box-shadow: 5px 5px 10px #888888;
+  border: 1px solid red;
+}
+
+.wakeup_image{
+  margin-left: 100px;
+  margin-top: 300px;
+
+}
+
+.wakeup_info__image{
+  margin-left: 80px;
+  margin-top:300px;
+  width: 420px;
+box-shadow: 5px 5px 10px #888888;
+  border: 1px solid red;
+}
+
+.online_image{
+  margin-left: 500px;
+  margin-top: 300px;
+
+}
+
+.online_info__image{
+  margin-left: 900px;
+  margin-top:200px;
+  width: 420px;
+box-shadow: 5px 5px 10px #888888;
+  border: 1px solid red;
+}
+
+.building_image{
+  margin-left: 200px;
+  margin-top: 300px;
+
+}
+
+.building_info__image{
+  margin-left: 20px;
+  margin-top:300px;
+  width: 420px;
+box-shadow: 5px 5px 10px #888888;
+  border: 1px solid red;
+}
+
+.truism_image{
+  margin-left: 200px;
+  margin-top: 300px;
+
+}
+
+.truism_info__image{
+  margin-left: 400px;
+  margin-top:100px;
+  width: 420px;
+box-shadow: 5px 5px 10px #888888;
+  border: 1px solid red;
+}
+
+.yourself_image{
+  margin-left: 200px;
+  margin-top: 300px;
+
+}
+
+.yourself_info__image{
+  margin-left: 20px;
+  margin-top:300px;
+  width: 420px;
+box-shadow: 5px 5px 10px #888888;
+  border: 1px solid red;
+}
+
+.offline_image{
+  margin-left: 200px;
+  margin-top: 300px;
+
+}
+
+.offline_info__image{
+  margin-left: 200px;
+  margin-top:200px;
+  width: 420px;
+box-shadow: 5px 5px 10px #888888;
+  border: 1px solid red;
+}
+
+.realname_image{
+  margin-left: 200px;
+  margin-top: 300px;
+
+}
+
+.realname_info__image{
+  margin-left: 200px;
+  margin-top:200px;
+  width: 420px;
+box-shadow: 5px 5px 10px #888888;
+  border: 1px solid red;
+}
+
+
+/*images*/
+.camera{
+  margin-left: 560px;
+  margin-top: 780px;
+  display: inline-block;
+  position: absolute;
+}
+
+
+
+.transcript{
+  margin-left: 390px;
+  margin-top: 780px;
+  position: absolute;
+}
+
+.transcript:hover{
+  display: none;
+  transition: 1s ease-in-out;
+}
+
+
+
+
+
+/*index*/
+html,body{
+    margin: 0;
+    height: 100%;
+    width: 100%;
+}
+
+#experiment {
+    perspective: 9000px;
+    height: 900%;
+    width: 100%;
+  overflow: hidden;
+}
+
+.cube {
+    position: relative;
+    height: 100%;
+    width: 100%;
+    transform-style: preserve-3d;
+}
+.face {
+    position: absolute;
+    height: 300%;
+    width: 100%;
+    color: pink;
+    transition: transform 3s linear;
+}
+.cube .front {
+
+    transform:  rotateY(-90deg) translateX(-50%) rotateY(0deg) translateX(50%) rotateY(90deg);
+    transform-origin: center center;
+    background-image: url("https://i.ytimg.com/vi/gKKYnNvfU1A/maxresdefault.jpg" ) ;
+
+}
+
+.cube .side {
+    transform:  rotateY(-90deg) translateX(-50%) rotateY(-90deg) translateX(50%) rotateY(90deg);
+    background-image: url("https://i.ytimg.com/vi/gKKYnNvfU1A/maxresdefault.jpg" ) ;
+}
+
+.cube .bottom {
+    transform:  rotateZ(-90deg) translateX(-50%) rotateZ(-90deg) translateZ(50%) rotateZ(90deg);
+    background-color:blue;
+}
+.cube:hover .front {
+    transform:  rotateY(-90deg) translateX(-50%) rotateY(90deg) translateX(50%) rotateY(90deg);
+}
+
+.cube:hover .side {
+    transform:  rotateY(-90deg) translateX(-50%) rotateY(0deg) translateX(50%) rotateY(90deg);
+}
+
+.cube:hover .bottom {
+    transform:  rotateZ(-90deg) translateX(-50%) rotateZ(0deg) translateX(50%) rotateZ(90deg);
+}
