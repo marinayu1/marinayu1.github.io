@@ -28,6 +28,8 @@ blockquote{
   padding: 20px;
 }
 
+/*scrollindex*/
+
 a:link{
   color: red;
   text-decoration: none;
@@ -50,7 +52,21 @@ a:visited{
   to { transform: rotateX(360deg); }
 }
 
+.rotate-Y {
+  animation: spinY 7s infinite linear;
+}
 
+@keyframes spinY {
+  from { transform: rotateY(0); }
+  to { transform: rotateY(360deg); }
+}
+
+.arrow{
+  margin-left: 620px;
+  margin-top: 600px;
+  position: fixed;
+
+}
 .contents{
 	position: fixed;
 	font-family: arial;
@@ -83,6 +99,7 @@ a:visited{
   position: absolute;
   transition: 1s;
   box-shadow: 5px 5px 10px #888888;
+  align-items: baseline;
 
 }
 .thumbnailsplit{
@@ -101,6 +118,7 @@ a:visited{
   position: absolute;
   transition: 1s;
   box-shadow: 5px 5px 10px #888888;
+
 }
 
 .thumbnailwakeup{
@@ -137,6 +155,7 @@ a:visited{
   position: absolute;
   transition: 1s;
   box-shadow: 5px 5px 10px #888888;
+  transform-origin: 20% 50%;
 }
 
 .thumbnailyourself{
@@ -172,8 +191,7 @@ a:visited{
 /*hoverthumbnails*/
 .thumbnail:hover {
     width:600px;
-
-    transition: 1s ease-in-out;
+transition: 1s ease-in-out;
     margin: auto;
     position: absolute;
     transform: scale(1,1)
@@ -264,15 +282,16 @@ a:visited{
   text-decoration: underline red;
 
 }
+
 .appear{
   position: fixed;
   display: none;
-  pointer-events: none;
+  pointer-events: all;
+  cursor: pointer;
   top: 50px;
   left: 20px;
-
-
 }
+
 .appear.showme{
   display: block;
   top: 50px;
@@ -282,9 +301,10 @@ a:visited{
 .rotate{
   position: fixed;
   visibility: hidden;
-  pointer-events: none;
+  pointer-events: all;
   transition: all 1s;
   transform: scale(0)rotate(0deg);
+  cursor: pointer;
 
 
 }
@@ -349,7 +369,7 @@ a:visited{
   border: 1px red solid;
 }
 
-.rememeber__image{
+.remember__image{
   margin-top: 100px;
   margin-left: 340px;
   height: 40px;
@@ -357,7 +377,7 @@ a:visited{
 }
 
 .folklore__image{
-  margin-top: 280px;
+  margin-top: 360px;
   margin-left: 590px;
   height: 40px;
   border: 1px red solid;
@@ -378,15 +398,15 @@ a:visited{
 }
 
 .percolate__image{
-  margin-top: 400px;
-  margin-left: 420px;
+  margin-top: 300px;
+  margin-left: 920px;
   height: 40px;
   border: 1px red solid;
 }
 
 .integers__image{
-  margin-top: 200px;
-  margin-left: 420px;
+  margin-top: 250px;
+  margin-left: 120px;
   height: 40px;
   border: 1px red solid;
 }
@@ -396,6 +416,7 @@ a:visited{
   margin-left: 420px;
   height: 40px;
   border: 1px red solid;
+
 }
 
 .transcript_info__image{
@@ -455,8 +476,8 @@ box-shadow: 5px 5px 10px #888888;
 }
 
 .wakeup_info__image{
-  margin-left: 80px;
-  margin-top:300px;
+  margin-left: 200px;
+  margin-top:400px;
   width: 420px;
 box-shadow: 5px 5px 10px #888888;
   border: 1px solid red;
@@ -469,7 +490,7 @@ box-shadow: 5px 5px 10px #888888;
 }
 
 .online_info__image{
-  margin-left: 900px;
+  margin-left: 400px;
   margin-top:200px;
   width: 420px;
 box-shadow: 5px 5px 10px #888888;
@@ -483,8 +504,8 @@ box-shadow: 5px 5px 10px #888888;
 }
 
 .building_info__image{
-  margin-left: 20px;
-  margin-top:300px;
+  margin-left: 820px;
+  margin-top:30px;
   width: 420px;
 box-shadow: 5px 5px 10px #888888;
   border: 1px solid red;
