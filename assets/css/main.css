@@ -1,5 +1,6 @@
 
 
+
 * {
  margin: 0;
  padding: 0;
@@ -11,7 +12,7 @@ section {
  position: relative;
  width: 100%;
  height: 100%;
- background-image: url("https://i.ytimg.com/vi/gKKYnNvfU1A/maxresdefault.jpg");
+
 
 }
 
@@ -21,7 +22,7 @@ section:after {
  width: 100%;
  height: 80%;}
 
-section h1 {
+section  {
  position: absolute;
  top: 50%;
  left: 50%;
@@ -45,6 +46,7 @@ section h1 {
 .demo a:hover {
  opacity: .5;
 }
+
 
 h1{
   font-family: arial;
@@ -136,7 +138,8 @@ font-family: arial;
 text-align: center;
 	border: 1px solid;
 	border-color: RED;
-	background-image: url("https://i.ytimg.com/vi/gKKYnNvfU1A/maxresdefault.jpg ") ;
+	background-image: url("https://i.ytimg.com/vi/gKKYnNvfU1A/maxresdefault.jpg ")  ;
+  background-size: 150px;
   width: 50px;
   height: 50px;
 	margin-left: 1150px;
@@ -249,6 +252,24 @@ text-align: center;
   box-shadow: 5px 5px 10px #888888;
 }
 
+.thumbnailpassport{
+  display: inline-block;
+  width: 30px;
+  padding: 0px;
+  position: absolute;
+  transition: 1s;
+  box-shadow: 5px 5px 10px #888888;
+}
+.thumbnailgesture{
+  display:inline-block;
+  width: 30px;
+  position: absolute;
+  transition: 1s;
+  box-shadow: 5px 5px 10px #888888;
+}
+
+
+
 
 
 
@@ -319,6 +340,19 @@ transition: 1s ease-in-out;
 }
 
 .thumbnailrealname:hover {
+    width:600px;
+    transition: 1s ease-in-out;
+    margin: auto;
+    position: absolute;
+}
+.thumbnailpassport:hover {
+    width:600px;
+    transition: 1s ease-in-out;
+    margin: auto;
+    position: absolute;
+}
+
+.thumbnailgesture:hover {
     width:600px;
     transition: 1s ease-in-out;
     margin: auto;
@@ -483,6 +517,84 @@ transition: 1s ease-in-out;
 
 }
 
+.real__image{
+  margin-top: 100px;
+  margin-left: 520px;
+  height: 40px;
+  border: 1px red solid;
+
+}
+.realtwo__image{
+  margin-top: 200px;
+  margin-left: 220px;
+  height: 40px;
+  border: 1px red solid;
+
+}
+.realthree__image{
+  margin-top: 240px;
+  margin-left: 20px;
+  height: 40px;
+  border: 1px red solid;
+}
+.realfour__image{
+  margin-top: 400px;
+  margin-left: 420px;
+  height: 40px;
+  border: 1px red solid;
+}
+.realfive__image{
+  margin-top: 360px;
+  margin-left: 820px;
+  height: 40px;
+  border: 1px red solid;
+}
+.realsix__image{
+  margin-top: 500px;
+  margin-left: 230px;
+  height: 40px;
+  border: 1px red solid;
+}
+.realseven__image{
+  margin-top: 600px;
+  margin-left: 620px;
+  height: 40px;
+  border: 1px red solid;
+}
+.realeight__image{
+  margin-top: 570px;
+  margin-left: 990px;
+  height: 40px;
+  border: 1px red solid;
+}
+.realnine__image{
+  margin-top: 370px;
+  margin-left: 50px;
+  height: 40px;
+  border: 1px red solid;
+}
+.realten__image{
+  margin-top: 480px;
+  margin-left: 400px;
+  height: 40px;
+  border: 1px red solid;
+}
+.realeleven__image{
+  margin-top: 500px;
+  margin-left: 30px;
+  height: 40px;
+  border: 1px red solid;
+}
+.realtwelve__image{
+  margin-top: 610px;
+  margin-left: 320px;
+  height: 40px;
+  border: 1px red solid;
+}
+
+
+
+
 .transcript_info__image{
   margin-top: 150px;
   margin-left: 0px;
@@ -617,11 +729,7 @@ box-shadow: 5px 5px 10px #888888;
   border: 1px solid red;
 }
 
-.realname_image{
-  margin-left: 200px;
-  margin-top: 300px;
 
-}
 
 .realname_info__image{
   margin-left: 200px;
@@ -632,6 +740,22 @@ box-shadow: 5px 5px 10px #888888;
 }
 
 
+
+.passport_info__image{
+  margin-left: 900px;
+  margin-top:300px;
+  width: 420px;
+box-shadow: 5px 5px 10px #888888;
+  border: 1px solid red;
+}
+
+.gesture_info__image{
+  margin-left: 20px;
+  margin-top:400px;
+  width: 420px;
+box-shadow: 5px 5px 10px #888888;
+  border: 1px solid red;
+}
 /*images*/
 
 

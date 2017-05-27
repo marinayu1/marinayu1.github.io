@@ -83,6 +83,14 @@ $(document).ready(function() {
               $('.realname_info__image').removeClass('showme');
             });*/
 
+            $('.thumbnailpassport').mouseenter(function() {
+              $('.passport_info__image').addClass('showme');
+            });
+            $('.thumbnailgesture').mouseenter(function() {
+              $('.gesture_info__image').addClass('showme');
+            });
+
+
 
 
 
@@ -203,7 +211,43 @@ $('.representing').mouseenter(function() {
 $('.representing__image').addClass('showme');
 });
 
+$('.real').mouseenter(function() {
+$('.real__image').addClass('showme');
+});
+$('.realtwo').mouseenter(function() {
+$('.realtwo__image').addClass('showme');
+});
 
+$('.realthree').mouseenter(function() {
+$('.realthree__image').addClass('showme');
+});
+$('.realfour').mouseenter(function() {
+$('.realfour__image').addClass('showme');
+});
+$('.realfive').mouseenter(function() {
+$('.realfive__image').addClass('showme');
+});
+$('.realsix').mouseenter(function() {
+$('.realsix__image').addClass('showme');
+});
+$('.realseven').mouseenter(function() {
+$('.realseven__image').addClass('showme');
+});
+$('.realeight').mouseenter(function() {
+$('.realeight__image').addClass('showme');
+});
+$('.realnine').mouseenter(function() {
+$('.realnine__image').addClass('showme');
+});
+$('.realten').mouseenter(function() {
+$('.realten__image').addClass('showme');
+});
+$('.realeleven').mouseenter(function() {
+$('.realeleven__image').addClass('showme');
+});
+$('.realtwelve').mouseenter(function() {
+$('.realtwelve__image').addClass('showme');
+});
 
 
 $( ".appear" ).click(function() {
@@ -214,12 +258,15 @@ $( ".rotate" ).click(function() {
   $(this).removeClass('showme');
 });
 
-$(function() {
-	$('a[href*=#]').on('click', function(e) {
-		e.preventDefault();
-		$('html, body').animate({ scrollTop: $($(this).attr('href')).offset().top}, 500, 'linear');
-	});
+/*scrollclick*/
+$(document).on('click', 'a', function(event){
+    event.preventDefault();
+
+    $('html, body').animate({
+        scrollTop: $( $.attr(this, 'href') ).offset().top
+    }, 500);
 });
+
 
 
 
