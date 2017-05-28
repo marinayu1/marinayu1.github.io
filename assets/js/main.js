@@ -90,7 +90,17 @@ $(document).ready(function() {
               $('.gesture_info__image').addClass('showme');
             });
 
+            $('.thumbnailamazon').mouseenter(function() {
+              $('.amazon_info__image').addClass('showme');
+            });
 
+            $('.thumbnailanonymous').mouseenter(function() {
+              $('.anonymous_info__image').addClass('showme');
+            });
+
+            $('.thumbnailsynchronized').mouseenter(function() {
+              $('synchronized_info__image').addClass('showme');
+            });
 
 
 
@@ -101,6 +111,10 @@ $(document).ready(function() {
 
   $('.record').mouseenter(function() {
        $('.record__image').addClass('showme');
+     });
+
+     $('.showup').mouseenter(function() {
+     $('.showup__image').addClass('showme');
      });
 
      /*$('.record').mouseleave(function() {
@@ -248,6 +262,28 @@ $('.realeleven__image').addClass('showme');
 $('.realtwelve').mouseenter(function() {
 $('.realtwelve__image').addClass('showme');
 });
+$('.conception').mouseenter(function() {
+$('.conception__image').addClass('showme');
+});
+$('.hyperbolic').mouseenter(function() {
+$('.hyperbolic__image').addClass('showme');
+});
+$('.time').mouseenter(function() {
+$('.time__image').addClass('showme');
+});
+$('.timetwo').mouseenter(function() {
+$('.timetwo__image').addClass('showme');
+});
+$('.timethree').mouseenter(function() {
+$('.timethree__image').addClass('showme');
+});
+$('.front').mouseenter(function() {
+$('.front__image').addClass('showme');
+});
+$('.deny').mouseenter(function() {
+$('.deny__image').addClass('showme');
+});
+
 
 
 $( ".appear" ).click(function() {
