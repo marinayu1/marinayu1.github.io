@@ -1,5 +1,59 @@
 
 
+* {
+ margin: 0;
+ padding: 0;
+}
+html, body {
+ height: 100%;
+}
+
+
+.row {
+  display: flex;
+  flex-wrap:wrap;
+}
+
+.cover {
+   background: url("https://i.ytimg.com/vi/gKKYnNvfU1A/maxresdefault.jpg") no-repeat center center fixed;
+  background-size: cover;
+  height:100vh;
+  width:100vw;
+}
+
+#page1 {
+  background-image: url("https://i.ytimg.com/vi/gKKYnNvfU1A/maxresdefault.jpg") no-repeat center center fixed;
+}
+
+#page2 {
+  background-image: url("https://i.ytimg.com/vi/gKKYnNvfU1A/maxresdefault.jpg")no-repeat center center fixed;
+}
+
+
+.type {
+  font-family: arial;
+  font-size: 50px;
+  text-align: center;
+  color:white;
+  width:100%;
+
+}
+
+.align__start {
+  align-self:flex-start;
+}
+
+.align__middle {
+  align-self:center;
+}
+
+.align__end {
+  align-self:flex-end;
+}
+
+.tar {
+  text-align: right;
+}
 
 
 
@@ -93,7 +147,7 @@ font-family: arial;
 text-align: center;
 	border: 1px solid;
 	border-color: RED;
-	background-image: url("https://i.ytimg.com/vi/gKKYnNvfU1A/maxresdefault.jpg ")  ;
+
   background-size: 150px;
   width: 50px;
   height: 50px;
@@ -863,7 +917,7 @@ html,body{
 
 #experiment {
     perspective: 9000px;
-    height: 900%;
+    height: 300vh;
     width: 100%;
   overflow: hidden;
 }
