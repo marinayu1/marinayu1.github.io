@@ -50,9 +50,13 @@ h1{
   text-shadow: white 0.1em 0.1em 0.2em
 }
 
+.custom{
+  cursor:url(assets/images/cloud.png),auto;
+}
 body{
   background-color: lightyellow;
-}
+  }
+
 
 p{
   font-family: arial;
@@ -493,31 +497,25 @@ transition: 1s ease-in-out;
   width: 150px;
 }
 
-.TITLE__image{
-  margin-top:-510px;
-  margin-left: -500px;
-  width: 50px;
 
 
-}
-.TITLEtwo__image{
-  margin-top:-210px;
-  margin-left: -300px;
-  width: 100px;
-}
-.TITLEthree__image{
-  margin-top:-240px;
-  margin-left: 180px;
-  width: 230px;
-}.TITLEfour__image{
-  margin-top:-150px;
-  margin-left: -200px;
-  width: 180px;
 }.TITLEfive__image{
-  margin-top:-110px;
+  margin-top:-510px;
   margin-left: 400px;
-  width: 70px;
+  width: 770px;
 }
+
+.cloudtitle__image{
+  margin-top: 400px;
+  margin-left: -700px;
+  width:900px;
+}
+.existtitle__image{
+  margin-top: 800px;
+  margin-left: 200px;
+  width:300px;
+}
+
 
 .toomuch_image{
   margin-top: 10px;
@@ -941,6 +939,7 @@ html,body{
     margin: 0;
     height: 100%;
     width: 100%;
+    cursor: url(images/assets/cloud.png),auto;
 }
 
 #experiment {

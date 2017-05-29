@@ -300,6 +300,13 @@ $('.TITLE').mouseenter(function() {
 $('.TITLEfive__image').addClass('showme');
 });
 
+$('.cloudtitle').mouseenter(function() {
+$('.cloudtitle__image').addClass('showme');
+});
+
+$('.existtitle').mouseenter(function() {
+$('.existtitle__image').addClass('showme');
+});
 $('.toomuch').mouseenter(function() {
 $('.toomuch__image').addClass('showme');
 });
