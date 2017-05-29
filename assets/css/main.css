@@ -1004,6 +1004,3 @@ html,body{
  width:100vw;
   overflow: auto;
 }
-.autoscroller pre {
-   word-break: break-word;
-}

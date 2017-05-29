@@ -7,17 +7,12 @@ $(document).ready(function() {
     $('.transcript_info__image').addClass('showme');
   });
 
-/*  $('.thumbnail').mouseleave(function() {
-     $('.transcript_info__image').removeClass('showme');
-   });*/
+
 
    $('.thumbnailsplit').mouseenter(function() {
      $('.split_info__image').addClass('showme');
    });
 
-   /* $('.thumbnailsplit').mouseleave(function() {
-      $('.split_info__image').removeClass('showme');
-    });*/
 
     $('.thumbnailjoyless').mouseenter(function() {
       $('.joyless_info__image').addClass('showme');
