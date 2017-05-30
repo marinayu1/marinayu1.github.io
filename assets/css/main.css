@@ -51,7 +51,7 @@ h1{
 }
 
 .custom{
-  cursor:url(assets/images/cloud.png),auto;
+  cursor:url(cloud.png),auto;
 }
 body{
   background-color: lightyellow;
