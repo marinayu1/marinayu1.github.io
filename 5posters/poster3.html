@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>poster 3</title>
+  </head>
+  <style media="screen">
+  .rectangle {
+  width:600px;
+  height: 1000px;
+  background-color:red;
+  margin-left: 100px;
+  position: absolute;
+  z-index: -1;
+  }
+
+  .rectangletwo {
+  width:600px;
+  height: 1000px;
+  background-color:blue;
+  margin-left: 700px;
+  position: absolute;
+  z-index: -1;
+  }
+
+  .rectanglethree {
+  width:600px;
+  height: 700px;
+  background-color:blue;
+  margin-left: 100px;
+  position: absolute;
+  margin-top: 1000px;
+  z-index: -1;
+  }
+
+  .rectanglefour {
+  width:600px;
+  height: 700px;
+  background-color:red;
+  margin-left: 700px;
+  position: absolute;
+  margin-top: 1000px;
+  z-index: -1;
+  }
+
+  .rotate-y {
+    animation: rotate-y 90deg infinite linear;
+  }
+  @keyframes spinY {
+    from { transform: rotateY(0); }
+    to { transform: rotateY(360deg); }
+  }
+
+
+  .rectangle:hover{
+    background-color: blue;
+    }
+
+  .rectangletwo:hover{
+    background-color: red;
+      }
+
+  .rectanglethree:hover{
+    background-color: red;
+          }
+
+    .rectanglefour:hover{
+    background-color: blue;
+              }
+
+    .text{
+    font-family: arial;
+    font-size:50pt;
+    transition: 10s;
+    display:block;
+    margin-top: 50px;
+    position: absolute;
+    margin-left:200px;
+    
+    }
+
+    .text:hover{
+    transform: rotate(90deg);
+    transition: 0.70s ease-in-out;
+          }
+  </style>
+  <body>
+
+  <div class="text"> look </div>
+    <div class="rectangle rollover " >
+
+
+    </div>
+    <div class="rectangletwo">
+    </div>
+
+    <div class="rectanglethree">
+    </div>
+
+    <div class="rectanglefour">
+    </div>
+
+
+  </body>
+</html>
