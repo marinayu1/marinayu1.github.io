@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>poster 3</title>
+    <script src="jquery-3.2.0.min.js" charset="utf-8"></script>
+    <script src="assets/js/main.js" charset="utf-8"></script>
+  </head>
+  <style media="screen">
+  .rectangle {
+  width:600px;
+  height: 1000px;
+  background-color:red;
+  margin-left: 100px;
+  position: absolute;
+  z-index: -1;
+  }
+
+  .rectangletwo {
+  width:600px;
+  height: 1000px;
+  background-color:blue;
+  margin-left: 700px;
+  position: absolute;
+  z-index: -1;
+  }
+
+  .rectanglethree {
+  width:600px;
+  height: 700px;
+  background-color:blue;
+  margin-left: 100px;
+  position: absolute;
+  margin-top: 1000px;
+  z-index: -1;
+  }
+
+  .rectanglefour {
+  width:600px;
+  height: 700px;
+  background-color:red;
+  margin-left: 700px;
+  position: absolute;
+  margin-top: 1000px;
+  z-index: -1;
+  }
+
+
+
+  .rectangle:hover{
+    background-color: blue;
+    }
+
+  .rectangletwo:hover{
+    background-color: red;
+      }
+
+  .rectanglethree:hover{
+    background-color: red;
+          }
+
+    .rectanglefour:hover{
+    background-color: blue;
+              }
+
+    .text{
+    font-family: arial;
+    font-size:50pt;
+    transition: 10s;
+    display:block;
+    margin-top: 50px;
+    position: absolute;
+    margin-left:647px;
+    color: white;
+    }
+
+
+    .appear{
+      position: fixed;
+      display: none;
+      pointer-events: all;
+      cursor: pointer;
+      top: 50px;
+      left: 20px;
+    }
+
+    .appear.showme{
+      display: block;
+      top: 50px;
+      left: 20px;
+    }
+
+
+
+  </style>
+  <body>
+
+    <span class="appear wonder">
+
+  <div class="text"> LOOK </div>
+    <div class="rectangle rollover " >
+
+
+    </div>
+    <div class="rectangletwo">
+    </div>
+
+    <div class="rectanglethree">
+    </div>
+
+    <div class="rectanglefour">
+    </div>
+
+
+  </body>
+</html>

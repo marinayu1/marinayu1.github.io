@@ -3,12 +3,191 @@
   <head>
     <meta charset="utf-8">
     <title>index</title>
-    <link rel="stylesheet" href="assets/css/main.css">
-      <script src="jquery-3.2.0.min.js" charset="utf-8"></script>
+
+      <script src="jquery-3.2.1.min.js" charset="utf-8"></script>
       <script src="assets/js/main.js" charset="utf-8"></script>
+
+      <style media="screen">
+        .titles{
+          font-family: arial;
+          font-size: 150pt;
+          text-transform: uppercase;
+          text-align: center;
+          display: inline;
+          margin-left: 215px;
+          margin-top: 200px;
+          position: absolute;
+        }
+
+        .col2{
+          font-family: arial;
+          font-size: 150pt;
+          margin-left: 1070px;
+          overflow: scroll;
+          width: 170px;
+          height: 190px;
+          position: absolute;
+          display: inline-block;
+          margin-top: 200px;
+        }
+
+        .P{
+          margin-left: 150px;
+        }
+        .O{
+          margin-left: 274px;
+        }
+        .S{
+          margin-left: 425px;
+        }
+        .T{
+          margin-left: 550px;
+        }
+        .E{
+          margin-left: 670px;
+        }
+        .R{
+          margin-left: 800px;
+        }
+
+        a {
+    color: black;
+    text-decoration: none;
+}
+
+.autoscroller {
+
+  overflow: auto;
+}
+
+.appear{
+  position: fixed;
+  display: none;
+  pointer-events: all;
+  cursor: pointer;
+  top: 50px;
+  left: 20px;
+}
+
+.appear.showme{
+  display: block;
+  top: 50px;
+  left: 20px;
+}
+.posterone__image{
+  margin-left: 400px;
+  margin-top: 70px;
+}
+
+.diagrams{
+  z-index: -10;
+  position: absolute;
+  margin-left: 450px;
+  margin-top: 100px;
+}
+
+.news{
+
+
+top: 0px;
+padding: 9px;
+font-size: 41px;
+font-family: arial;
+text-transform: uppercase;
+}
+
+.border{
+  border-bottom: 10px solid black;
+
+}
+
+
+  .marquee {
+    display: inline-block;
+    width: -webkit-fill-available;
+}
+      </style>
   </head>
 
   <body>
+<marquee behavior="scroll" direction="left" scrollamount="10">
+
+    <div class="news">BELOW YOU WILL FIND FIVE DIFFERENT POSTERS THAT SHOW MY SICK SKILLS IN THE ART OF MAKING THE CODE. EXPERIENCE MOVING POSTERS THAT USE JQUERY AND STYLISH STYLING BY CSS.</div></marquee>
+     <div class="border"></div>
+
+    </div>
+
+    <div class="col2 P">
+      P
+      !
+
+      #
+      $
+      %
+    </div>
+
+    <div class="col2 O">
+      O
+      !
+
+      #
+      $
+      %
+    </div>
+
+    <div class="col2 S">
+      S
+      !
+
+      #
+      $
+      %
+    </div>
+
+    <div class="col2 T">
+      T
+      !
+
+      #
+      $
+      %
+    </div>
+
+    <div class="col2 E">
+      E
+      !
+
+      #
+      $
+      %
+    </div>
+
+    <div class="col2 R">
+      R
+      !
+
+      #
+      $
+      %
+    </div>
+
+
+      <img class="appear posterone__image"src="assets/images/poster1.png">
+      <div id="side" class="face side autoscroller">
+    <div class="col2">
+        <span class="posterone"><a href="poster1.html">1</a></span>
+        <a href="poster2.html">2</a>
+            <a href="poster3.html">3</a>
+              <a href="poster4.html">4</a>
+                <a href="poster5.html">5</a>
+                  <a href="poster6.html">6</a>
+                    <a href="poster7.html">!</a>
+
+
+
+
+    </div>
+    </div>
 
   </body>
 </html>
