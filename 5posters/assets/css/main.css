@@ -93,16 +93,31 @@ h3{
   width: 500px;
   height: 200px;
   background-color: white;
-  border: solid black;
-  z-index: 20;
+
+  transition: all 1s;
+  z-index: 10;
   position: absolute;
 
 }
 
 .moveleft{
-  margin-left:400px;
+  margin-left:600px;
 }
 
+.movedown{
+  margin-top: 400px;
+}
+.movedown2{
+  margin-top: 800px;
+}
+
+.moveright{
+  margin-left: 20px;
+}
+
+.moveup{
+  margin-bottom: 400px;
+}
 .addred {
   color:red;
 }
@@ -112,7 +127,15 @@ h3{
   font-weight: bold;
   z-index: -1;
   }
+.enlarge{
+  font-size: 150pt;
+  transition: all 1s;
+}
 
+.smaller{
+  font-size: 70pt;
+  transition: all 1s;
+}
 .large{
   font-size: 150pt;
 }
@@ -209,8 +232,7 @@ h3{
   width:1400px;
   height: 3350px;
   background-color: yellow;
-  position: absolute;
-  z-index: -20;
+
 }
 
 .numbertitle{
@@ -240,8 +262,7 @@ h3{
   margin-left: 20px;
   width: 900px;
   font-family: arial;
-  z-index: -10;
-  position: absolute;
+
 
 
 }
@@ -258,23 +279,112 @@ h3{
 
 .rollover:hover{
   color: white;
+    border-bottom: solid black 3px;
 }
 
-
+.felix{
+  font-family: arial;
+}
 
 .felixdates{
   text-align: right;
-  width:200px;
+  width:500px;
   font-size: 80pt;
   font-weight: normal;
   color: black;
-  margin-left: 480px;
-  width: 900px;
+  margin-left: 870px;
+
   font-family: arial;
-  z-index: 3840;
+  z-index: 10;
   opacity: 0;
+  position: absolute;
+
 }
 
 .felixdates.showme{
+  opacity: 1;
+}
+
+.pierre{
+  font-family: arial;
+}
+
+.pierredates{
+  text-align: right;
+  width:500px;
+  font-size: 80pt;
+  font-weight: normal;
+  color: black;
+  margin-left: 870px;
+  font-family: arial;
+  z-index: 10;
+  opacity: 0;
+  position: absolute;
+
+}
+.pierredates.showme{
+  opacity: 1;
+}
+
+.don{
+  font-family: arial;
+}
+
+.dondates{
+  text-align: right;
+  width:500px;
+  font-size: 80pt;
+  font-weight: normal;
+  color: black;
+  margin-left: 870px;
+  font-family: arial;
+  z-index: 10;
+  opacity: 0;
+  position: absolute;
+
+}
+.dondates.showme{
+  opacity: 1;
+}
+
+.her{
+  font-family: arial;
+}
+
+.herdates{
+  text-align: right;
+  width:500px;
+  font-size: 80pt;
+  font-weight: normal;
+  color: black;
+  margin-left: 870px;
+  font-family: arial;
+  z-index: 10;
+  opacity: 0;
+  position: absolute;
+
+}
+.herdates.showme{
+  opacity: 1;
+}
+
+.piet{
+  font-family: arial;
+}
+
+.pietdates{
+  text-align: right;
+  width:500px;
+  font-size: 80pt;
+  font-weight: normal;
+  color: black;
+  margin-left: 870px;
+  font-family: arial;
+  z-index: 10;
+  opacity: 0;
+  position: absolute;
+
+}
+.pietdates.showme{
   opacity: 1;
 }
