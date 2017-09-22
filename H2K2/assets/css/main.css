@@ -1,0 +1,148 @@
+/*! normalize.css v6.0.0 | MIT License | github.com/necolas/normalize.css */html{line-height:1.15;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}article,aside,footer,header,nav,section{display:block}h1{font-size:2em;margin:.67em 0}figcaption,figure,main{display:block}figure{margin:1em 40px}hr{box-sizing:content-box;height:0;overflow:visible}pre{font-family:monospace,monospace;font-size:1em}a{background-color:transparent;-webkit-text-decoration-skip:objects}abbr[title]{border-bottom:none;text-decoration:underline;text-decoration:underline dotted}b,strong{font-weight:inherit}b,strong{font-weight:bolder}code,kbd,samp{font-family:monospace,monospace;font-size:1em}dfn{font-style:italic}mark{background-color:#ff0;color:#000}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sub{bottom:-.25em}sup{top:-.5em}audio,video{display:inline-block}audio:not([controls]){display:none;height:0}img{border-style:none}svg:not(:root){overflow:hidden}button,input,optgroup,select,textarea{margin:0}button,input{overflow:visible}button,select{text-transform:none}[type=reset],[type=submit],button,html [type=button]{-webkit-appearance:button}[type=button]::-moz-focus-inner,[type=reset]::-moz-focus-inner,[type=submit]::-moz-focus-inner,button::-moz-focus-inner{border-style:none;padding:0}[type=button]:-moz-focusring,[type=reset]:-moz-focusring,[type=submit]:-moz-focusring,button:-moz-focusring{outline:1px dotted ButtonText}legend{box-sizing:border-box;color:inherit;display:table;max-width:100%;padding:0;white-space:normal}progress{display:inline-block;vertical-align:baseline}textarea{overflow:auto}[type=checkbox],[type=radio]{box-sizing:border-box;padding:0}[type=number]::-webkit-inner-spin-button,[type=number]::-webkit-outer-spin-button{height:auto}[type=search]{-webkit-appearance:textfield;outline-offset:-2px}[type=search]::-webkit-search-cancel-button,[type=search]::-webkit-search-decoration{-webkit-appearance:none}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}details,menu{display:block}summary{display:list-item}canvas{display:inline-block}template{display:none}[hidden]{display:none}/*# sourceMappingURL=normalize.min.css.map */
+
+
+* {
+  box-sizing: border-box;
+}
+
+
+
+
+/* Start here */
+
+
+body {
+  font-family: arial;
+}
+
+.container {
+  display: flex;
+  flex-wrap:wrap;
+  align-items: flex-end;
+
+
+}
+
+.center{
+  justify-content: center;
+
+  display: block;
+  margin: auto;
+}
+
+
+.item {
+
+}
+
+.item.thumbnail{
+  flex: 0 0 14.285%;
+}
+
+.item img {
+  max-width: 70%;
+
+
+}
+
+.col1of2{
+  flex: 0 0 50%;
+}
+.col1of5{
+  flex: 0 0 20%;
+}
+
+.col2of5 {
+  flex:0 0 40%;
+}
+
+.col3of5 {
+  flex:0 0 60%;
+}
+
+.col4of5{
+  flex: 0 0 80%;
+}
+
+.col5of5{
+  flex: 0 0 100%;
+}
+
+.spacer {
+  padding: 20px;
+
+}
+
+
+.header{
+  width: 100%;
+  position: fixed;
+  padding: 20px;
+  top: 0px;
+  left: 0px;
+  background-color: white;
+
+
+}
+
+.footer{
+  width: 100%;
+  position: fixed;
+  padding: 20px;
+  bottom: 0px;
+  left: 0px;
+  }
+
+.title{
+text-align: center;
+font-size: 14px;
+text-transform: uppercase;
+font-family: arial;
+}
+
+
+.nav span{
+display: inline-block;
+font-family: arial;
+font-size: 12px;
+text-transform: uppercase;
+border: 1px solid;
+padding: 5px;
+width: 170px;
+text-align: center;
+margin-left: 150px;
+
+}
+
+.nav span.hide{
+  display: none;
+}
+
+.nav span.show{
+  display: block;
+}
+
+.nav span:hover, .footer span:hover{
+color:#00e600;
+cursor: pointer;
+}
+
+.show{
+  display: block;
+}
+
+.hide{
+  display: none;
+}
+
+a{
+  color: black;
+  text-decoration: none;
+
+}
+
+a:hover{
+  color: #00e600;
+  text-decoration: none;
+
+}
