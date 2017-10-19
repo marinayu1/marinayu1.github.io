@@ -1,0 +1,47 @@
+* {
+  box-sizing: border-box;
+}
+
+
+/* Start here */
+
+body {
+
+}
+
+.time{
+  font-family: arial;
+  font-size: 70px;
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 30px;
+}
+
+.image_swap{
+  margin: auto;
+  width: 600px;
+}
+
+.image_swap img{
+  max-width: 100%;
+}
+
+.image_swap .message{
+  text-align: center;
+  font-size: 50px;
+}
+
+.grace{
+  font-size: 100px;
+  font-family: arial;
+  text-align: center;
+  color: red;
+}
+
+body.fiveM .dot1 {
+  display: block;
+}
+
+body.tenM .dot2 {
+  display: block;
+}
