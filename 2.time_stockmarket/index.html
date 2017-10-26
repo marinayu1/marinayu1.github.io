@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Title</title>
+    <!-- Require these to reset browser styles and debugging -->
+    <link rel="stylesheet" href="assets/css/_normalize.css">
+    <link rel="stylesheet" href="assets/css/_debug.css">
+
+    <!-- Add custom styles here -->
+    <link rel="stylesheet" href="assets/css/main.css">
+    <link rel="stylesheet" href="assets/css/time.css">
+
+    <!-- Require these for JS -->
+    <script src="assets/js/jquery-3.2.0.min.js" charset="utf-8"></script>
+    <script src="assets/js/moment-with-locales.min.js" charset="utf-8"></script>
+    <script src="assets/js/time.js" charset="utf-8"></script>
+
+    <!-- Add custom JS here -->
+    <script src="assets/js/main.js" charset="utf-8"></script>
+  </head>
+
+  <style media="screen">
+  @keyframes move {
+    0% {
+      transform:translateX(0%);
+      -webkit-transform:translateX(0%);
+      -moz-transform:translateX(0%)
+    }
+    100% {
+      transform:translateX(-50%);
+      -webkit-transform:translateX(-50%);
+      -moz-transform:translateX(-50%);
+    }
+  }
+  @-webkit-keyframes move {
+    0% {
+      transform:translateX(0%);
+      -webkit-transform:translateX(0%);
+      -moz-transform:translateX(0%)
+    }
+    100% {
+      transform:translateX(-50%);
+      -webkit-transform:translateX(-50%);
+      -moz-transform:translateX(-50%);
+    }
+  }
+  </style>
+
+  <body>
+
+
+
+
+
+        <div class="time"></div>
+
+
+
+        <div class="message">
+          <span class="one dotred"><img src="assets/images/1.png" alt=""></span>
+          <span class="two dotred"><img src="assets/images/2.png" alt=""></span>
+          <span class="three dotred"><img src="assets/images/3.png" alt=""></span>
+          <span class="four dotred"><img src="assets/images/4.png" alt=""></span>
+          <span class="five dotred"><img src="assets/images/5.png" alt=""></span>
+          <span class="six dotred"><img src="assets/images/6.png" alt=""></span>
+          <span class="seven dotred"><img src="assets/images/7.png" alt=""></span>
+          <span class="eight dotred"><img src="assets/images/8.png" alt=""></span>
+          <span class="nine dotred"><img src="assets/images/9.png" alt=""></span>
+          <span class="ten dotred"><img src="assets/images/10.png" alt=""></span>
+          <span class="eleven dotred"><img src="assets/images/11.png" alt=""></span>
+          <span class="twelve dotred"><img src="assets/images/12.png" alt=""></span>
+
+          <span class="buynow">BUY NOW</span>
+          <span class="getready">GET READY TO BUY</span>
+
+        </div>
+
+
+        <!-- remove later, used for debugging -->
+        <button type="button" id="pause" name="button" >Pause</button>
+        <textarea id="timeClasses" name="name" rows="2" cols="40">evenS oddS evenM oddM halfS fullS quarterM halfM threequatersM fullM am pm
+        </textarea>
+
+
+
+
+
+    <!-- remove later, used for debugging -->
+    <button type="button" id="pause" name="button">Pause</button>
+    <textarea id="timeClasses" name="name" rows="2" cols="40">evenS oddS evenM oddM halfM fullM quarterH halfH threequarterH fullH am pm
+    </textarea>
+
+    <!-- <div style="position: fixed; bottom: 0; left: 0; width: 100%; overflow: hidden; transform: translate3d(0,0,0); font-family:arial; font-size:16pt; color:green;">
+      <div style="display: table; -webkit-animation: move 40s linear infinite; animation: move 40s linear infinite; white-space: nowrap; transform: translate3d(0,0,0);">
+        <div style="display: inline-block">
+          API	AUST PHARM	$1.692	 ^	2.55%	$0.042
+          RSG	RESOLUTE	$1.055	 ^	2.43%	$0.025
+          MTS	METCASHLTD	$2.62	 ^	1.95%	$0.05
+          SBM	ST.BARBARA	$2.92	 ^	1.39%	$0.04
+          AGL	AGL ENERGY	$24.75	 ^	1.35%	$0.33
+        </div>
+        <div style="display: inline-block">
+          API	AUST PHARM	$1.692	 ^	2.55%	$0.042
+          RSG	RESOLUTE	$1.055	 ^	2.43%	$0.025
+          MTS	METCASHLTD	$2.62	 ^	1.95%	$0.05
+          SBM	ST.BARBARA	$2.92	 ^	1.39%	$0.04
+          AGL	AGL ENERGY	$24.75	 ^	1.35%	$0.33
+        </div>
+      </div>
+    </div> -->
+
+    <div style="position: fixed; top: 0; left: 0; width: 100%; overflow: hidden; transform: translate3d(0,0,0); font-family:arial; font-size:16pt; color:red;">
+      <div style="display: table; -webkit-animation: move 40s linear infinite; animation: move 40s linear infinite; white-space: nowrap; transform: translate3d(0,0,0);">
+        <div style="display: inline-block">
+          AGL	AGL ENERGY	$24.75	 ^	$0.33	1.35%
+  ALL	ARISTOCRAT	$22.62	 ^	$0.09	0.40%
+  AMC	AMCOR	$15.75	 >	-$0.13	-0.82%
+  AMP	AMP	$5.05	 >	-$0.02	-0.39%
+  ANZ	ANZ BANK	$30.59	 >	-$0.01	-0.03%
+  APA	APA GROUP	$8.59	 ^	$0.10	1.18%
+        </div>
+        <div style="display: inline-block">
+          AGL	AGL ENERGY	$24.75	 ^	$0.33	1.35%
+  ALL	ARISTOCRAT	$22.62	 ^	$0.09	0.40%
+  AMC	AMCOR	$15.75	 >	-$0.13	-0.82%
+  AMP	AMP	$5.05	 >	-$0.02	-0.39%
+  ANZ	ANZ BANK	$30.59	 >	-$0.01	-0.03%
+  APA	APA GROUP	$8.59	 ^	$0.10	1.18%
+
+        </div>
+      </div>
+    </div>
+
+  </body>
+</html>

@@ -1,0 +1,96 @@
+* {
+  box-sizing: border-box;
+}
+
+
+/* Start here */
+
+body {
+
+}
+
+.time{
+  font-family: arial;
+  font-size: 50px;
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 30px;
+  margin-top: 260px;
+  -webkit-text-stroke: 1pt black;
+  color: white;
+  z-index: -10;
+}
+
+.danceone{
+  /*display: none;*/
+
+}
+.danceone{
+  font-family: ARIAL;
+  text-transform: uppercase;
+  margin-left: 560px;
+}
+
+video#watchMe {
+    z-index: 9999;
+    position:relative;
+}
+
+#overlay {
+    z-index: 9998;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top:0;
+    left:0;
+    background: rgba(0, 0, 0, 0.85);
+}
+
+
+.getready{
+  display: none;
+}
+
+.getready{
+  font-family: arial;
+  font-size: 100pt;
+  text-align: center;
+  text-transform: uppercase;
+  color: blue;
+  z-index: -10;
+  top:0;
+  left:0;
+  -webkit-animation: flash  1s infinite;
+	animation: flash 1s infinite;
+}
+@-webkit-keyframes flash {
+	0% { opacity: 1; }
+	50% { opacity: 0; }
+	100% { opacity: 1; }
+}
+@keyframes flash {
+	0% { opacity: 1; }
+	50% { opacity: 0; }
+	100% { opacity: 1; }
+}
+
+
+
+
+
+.message{
+  text-align: center;
+  font-size: 350px;
+  font-family: arial;
+}
+
+.dotred{
+  display: none;
+}
+
+.dotred{
+  top: 0;
+  left:0;
+  z-index: -20;
+  position: absolute;
+}

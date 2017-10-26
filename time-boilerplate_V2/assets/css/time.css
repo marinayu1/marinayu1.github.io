@@ -22,10 +22,10 @@ body.evenS.pm .sunset {
 /* Time CSS here */
 
 
-body.evenS .time {
-
+body.everyfive .sold{
+display: none;
 }
 
-body.evenS .message{
-display: none;
+body.everyfive .time .one{
+  display: block;
 }

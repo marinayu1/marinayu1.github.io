@@ -27,10 +27,12 @@ body {
   text-transform: uppercase;
   margin-bottom: 30px;
   margin-top: 260px;
-
   color: black;
 }
 
+.one{
+
+}
 .image_swap{
   margin: auto;
   width: 600px;
