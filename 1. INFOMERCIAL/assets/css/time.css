@@ -1,0 +1,201 @@
+/* Note target the body first with the modifer.
+For example, every evenSecond change the div color to blue.
+Every oddSecond change the div color to red
+
+body.evenS .time {
+  color:blue;
+}
+
+body.oddS .time {
+  color:red;
+}
+
+Target multiple together. Every evenSecond only in the evening, display an image.
+
+body.evenS.pm .sunset {
+  display:block;
+}
+
+*/
+
+
+/* Time CSS here */
+
+
+
+
+
+/*body.everyfive .sold{
+display: none;
+}
+
+body.e1m .zero {
+  display: block;
+}
+
+body.e2m .one {
+  display: block;
+}
+
+body.e3m .two {
+  display: block;
+}
+
+body.e4m .three {
+  display: block;
+}
+
+body.e5m .four {
+  display: block;
+}
+
+body.e6m .five {
+  display: block;
+}
+
+body.e7m .six {
+  display: block;
+}
+
+body.e8m .seven {
+  display: block;
+}
+
+body.e9m .eight {
+  display: block;
+}
+
+body.e10m .nine {
+  display: block;
+}
+
+body.e11m .ten {
+  display: block;
+}
+
+body.e12m .eleven {
+  display: block;
+}
+
+body.e13m .twelve {
+  display: block;
+}
+body.e14m .thirteen {
+  display: block;
+}
+
+body.e15m .fourteen {
+  display: block;
+}
+
+body.e16m .fifteen {
+  display: block;
+}
+
+body.e17m .sixteen {
+  display: block;
+}
+
+body.e18m .seventeen {
+  display: block;
+}
+
+body.e19m .eighteen {
+  display: block;
+}
+
+body.e20m .nineteen {
+  display: block;
+}
+
+body.e21m .twenty {
+  display: block;
+}
+
+body.e22m .twentyone {
+  display: block;
+}
+
+body.e23m .twentytwo {
+  display: block;
+}
+
+body.e24m .twentythree {
+  display: block;
+}
+
+body.e25m .twentyfour {
+  display: block;
+}
+
+body.e26m .twentyfive{
+  display: block;
+}
+
+body.e27m .twentysix {
+  display: block;
+}
+
+body.e28m .twentyseven {
+  display: block;
+}
+
+body.e29m .eight {
+  display: block;
+}
+
+body.e30m .eight {
+  display: block;
+}
+
+body.e31m .eight {
+  display: block;
+}*/
+
+body.e5s .one{
+  display: block;
+}
+
+body.e10s .two{
+  display: block;
+}
+
+body.e15s .three{
+  display: block;
+}
+
+body.e20s .four{
+  display: block;
+}
+
+body.e25s .five{
+  display: block;
+}
+
+body.e30s .six{
+  display: block;
+}
+
+body.e35s .seven{
+  display: block;
+}
+
+body.e40s .eight{
+  display: block;
+}
+
+body.e45s .nine{
+  display: block;
+}
+
+body.e50s .ten{
+  display: block;
+}
+
+body.e55s .eleven{
+  display: block;
+}
+
+body.fullM .zero{
+  display: block;
+}

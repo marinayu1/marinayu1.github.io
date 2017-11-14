@@ -1,0 +1,215 @@
+* {
+  box-sizing: border-box;
+}
+
+
+/* Start here */
+
+body {
+
+}
+.videoone{
+  display: none;
+}
+
+.videotwo{
+  display: none;
+}
+
+.videothree{
+  display: none;
+}
+
+.videofour{
+  display: none;
+}
+
+.videofive{
+  display: none;
+}
+
+.outofserviceone{
+  display: block;
+  font-family: ARIAL;
+  font-size: 50px;
+  color: red;
+  text-align: center;
+}
+
+.outofservicetwo{
+  display: block;
+  font-family: ARIAL;
+  font-size: 50px;
+  color: red;
+  text-align: center;
+}
+
+.outofservicethree{
+  display: block;
+  font-family: ARIAL;
+  font-size: 50px;
+  color: red;
+  text-align: center;
+}
+
+.outofservicefour{
+  display: block;
+  font-family: ARIAL;
+  font-size: 50px;
+  color: red;
+  text-align: center;
+}
+
+.outofservicefive{
+  display: block;
+  font-family: ARIAL;
+  font-size: 50px;
+  color: red;
+  text-align: center;
+}
+
+
+
+.time{
+  font-family: arial;
+  font-size: 50px;
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 30px;
+  margin-top: 260px;
+  -webkit-text-stroke: 1pt black;
+  color:white;
+  z-index: 10;
+}
+
+.option1{
+  display: block;
+
+}
+.option1{
+  font-family: ARIAL;
+  text-transform: uppercase;
+  margin-left: 560px;
+}
+
+.bball{
+  display: block;
+}
+.bball{
+  margin-left: 500px;
+}
+
+.claw{
+display: block;
+}
+.claw{
+margin-left: 500px;
+}
+
+.fight{
+  display: none;
+}
+.fight{
+  margin-left: 500px;
+}
+
+video#watchMe {
+    z-index: 9999;
+    position:relative;
+}
+
+#overlay {
+    z-index: 9998;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top:0;
+    left:0;
+    background: rgba(0, 0, 0, 0.85);
+}
+
+.row {
+  display:flex;
+  flex-wrap:wrap;
+}
+
+.col__1of5 {
+  flex:0 0 20%;
+}
+
+.content {
+  font-family: ARIAL;
+  font-size: 20px;
+  color: red;
+  text-transform: uppercase;
+  padding: 10px;
+  margin: 10px;
+  text-align: center;
+}
+
+a{
+  color:red;
+  text-decoration: none;
+}
+a:hover{
+  font-size: 26px;
+}
+
+a:visited{
+  color: red;
+}
+
+.message{
+  text-align: center;
+  font-size: 350px;
+  font-family: arial;
+}
+
+.option1vid{
+  display:block;
+  top:140px;
+  left:480px;
+  position: absolute;
+  overflow: hidden;
+  z-index: -10;
+
+}
+
+.description{
+  font-size: 20px;
+  font-family: arial;
+  text-transform: uppercase;
+  color: red;
+  text-align: center;
+  margin-top: 100px;
+  margin-left: auto;
+
+}
+
+.message{
+  text-align: center;
+  font-size: 350px;
+  font-family: arial;
+}
+
+.playother{
+  font-size: 30px;
+  text-align: center;
+  font-family: arial;
+  color: red;
+}
+
+.cost{
+  font-family: arial;
+  font-size: 50px;
+  color: red;
+  margin-left: auto;
+  text-align: center;
+  z-index: 100;
+  margin-top:1px;
+
+}
+
+.money{
+  display: none;
+}

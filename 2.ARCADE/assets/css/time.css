@@ -1,0 +1,140 @@
+/* Note target the body first with the modifer.
+For example, every evenSecond change the div color to blue.
+Every oddSecond change the div color to red
+
+body.evenS .time {
+  color:blue;
+}
+
+body.oddS .time {
+  color:red;
+}
+
+Target multiple together. Every evenSecond only in the evening, display an image.
+
+body.evenS.pm .sunset {
+  display:block;
+}
+
+*/
+
+
+/* Time CSS here */
+body.h6.am .videoone{
+  display: block;
+}
+
+body.h6.am .outofserviceone{
+  display: none;
+}
+
+body.h9.am .videotwo{
+  display: block;
+}
+
+body.h9.am .outofservicetwo{
+  display: none;
+}
+
+body.h12.pm .videothree{
+  display: block;
+}
+
+body.h12.pm .outofservicethree{
+  display: none;
+}
+
+body.h6.pm .videofour{
+  display: block;
+}
+
+body.h6.am .outofservicefour{
+  display: none;
+}
+
+body.h9.pm .videofive{
+  display: block;
+}
+
+body.h9.pm .outofservicefive{
+  display: none;
+}
+body.e3s .one {
+display:block;
+}
+
+body.e6s .two {
+display:block;
+}
+
+body.e9s .three{
+display:block;
+}
+
+body.e12s .four{
+display:block;
+}
+
+body.e15s .five{
+display:block;
+}
+
+body.e18s .six{
+display:block;
+}
+
+body.e21s .seven{
+display:block;
+}
+
+body.e24s .eight{
+display:block;
+}
+
+body.e27s .nine{
+display:block;
+}
+
+body.e30s .ten {
+display:block;
+}
+
+body.e33s .eleven{
+display:block;
+}
+
+body.e36s .twelve{
+display:block;
+}
+
+body.e39s .thirteen{
+display:block;
+}
+
+body.e42s .fourteen{
+display:block;
+}
+
+body.e45s .fifteen{
+display:block;
+}
+
+body.e48s .sixteen{
+display:block;
+}
+
+body.e51s .seventeen{
+display:block;
+}
+
+body.e54s .eighteen{
+display:block;
+}
+
+body.e57s .nineteen{
+display:block;
+}
+
+body.fullM .zero{
+display:block;
+}
